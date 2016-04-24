@@ -1,0 +1,177 @@
+/****************************************************************************
+"Nutmeg and Cayeene Spiced Chicken with a Hummus, Pear, and Bell Pepper Slaw" 
+*****************************************************************************/
+#recipeName {
+	float: left;
+	position: fixed;
+
+	border-radius: 15px;
+
+	margin-top: 20px;
+	margin-left: 10px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+
+	font-family: Courier;
+	color: white;
+	background-color: red;
+}
+
+
+/****************************************************************************
+								"Ingredients"
+								"Method"
+*****************************************************************************/
+#ingredientsHeading {
+	border-radius: 50px;
+	background-color: blue;
+
+	margin: 3px 100px 3px 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+	text-align: center;
+	font-family: Courier;
+	font-size: 2em;
+	color: yellow;
+}
+
+#methodHeadingTag {
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 2px;
+}
+
+#methodHeading {
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+	margin: 3px 50px 0px 50px;
+	border-radius: 50px;
+	background-color: blue;
+
+	font-size: 2em;
+	font-family: Courier;
+	color: yellow;
+}
+
+.headingShadow {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+/****************************************************************************
+						"Nutmeg and Cayeene Spiced Chicken"
+						"Hummus, Pear, and Bell Pepper Slaw" 
+*****************************************************************************/
+.subHeading {
+	margin: 7px;
+	margin-bottom: 7px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 40px;
+
+	border-top-style: solid;
+	border-top-color: black;
+	border-bottom-style: solid;
+	border-bottom-color: black; 
+
+	text-align: left;
+	font-family: Courier;
+	font-size: 1.25em;
+}
+
+
+/****************************************************************************
+								INGREDIENTS DIV
+*****************************************************************************/
+.ingredients {
+	width: 500px;
+	height: 425px;
+	float: left;
+	position: fixed;
+
+	margin-top: 225px;
+	margin-left: 10px;
+}
+
+.slaw {
+	width: 500px;
+	height: 215px;
+	margin: 0px;
+}
+
+.chicken {
+	width: 500px;
+	height: 165px;
+	margin: 0px;
+}
+
+.ingredientList {
+	margin-top: 0px;
+}
+
+.ingredientListItem {
+	padding: 0px;
+	font-family: Courier;
+}
+
+.subIngredientListItem {
+	padding: 0px;
+	font-family: Courier;
+}
+
+li.ingredientListItem:hover {
+	background-color: yellow;
+	width: 425px;
+}
+
+li.subIngredientListItem:hover {
+	background-color: yellow;
+	width: 350px;
+}
+
+
+/****************************************************************************
+								METHOD DIV
+*****************************************************************************/
+#method {
+	width: 100px;
+	float: right;
+
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-right: 7px;
+}
+
+.methodTableData {
+	margin: 2px;
+	padding-bottom: 7px;
+	width: 50%;
+	height: 50%;
+}
+
+.methodStepImage {
+	width: 225px;
+	height: 230px;
+	border-radius: 10px;
+	border: 4px solid black;
+	float: left;
+}
+
+td.methodTableData:hover .methodStepImage{
+	border: 4px solid red;
+	width: 240px;
+	height: 245px;
+}
+
+
+/****************************************************************************
+								METHOD INSTRUCTIONS
+*****************************************************************************/
+
+.methodStepText {
+	text-align: center;
+	font-family: Courier;
+}
